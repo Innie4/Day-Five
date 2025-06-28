@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: bisque;
+}
+
+.header img{
+    width: 55px;
+    height: 55px
+}
+
+.header h1{
+    color: brown;
+    font-size: 30px;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    margin-bottom: 25px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
+
+.header-wrap{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+
+.menu{
+    margin-top: 15px;
+}
+
+.sections img{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.sections p{
+    width: 400px;
+    align-items: center;
+}
+
+.sections{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    border: 2px solid brown;
+    padding: 10px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+.testimonials img{
+    width: 45px;
+    height: 45px;
+    margin-top: auto;
+    border: 1px solid brown;
+    border-radius: 25px;
+    margin:10px ;
+}
+
+.testimonials h2{
+    color: brown;
+    
+}
+
+.testimonials{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.card{
+    width: 300px;
+    margin-left: 100px;
+    border: 2px solid brown;
+    margin-bottom: 550px;
+    padding: 15px
+}
+
+.reviews{
+    font-size: 13px;
+}
+
+.wrap h2{
+    color: brown;
+    text-align: center;
+}
+

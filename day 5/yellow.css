@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(243, 237, 237);
+}
+
+.header-control{
+    background-color: rgb(62, 62, 104);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-control ul li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+.header-control ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-control{
+    margin: auto;
+    padding: 15px;
+}
+
+.about-me img{
+    width: 280px;
+    height: 280px;
+    border: 3px solid skyblue;
+    border-radius: 150px;
+} 
+
+.about-me, .my-interests, .useful-resources{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.my-interests ul li{
+    margin: auto;
+    padding-left: 20px;
+}
+
+.footer-control{
+    margin-top: 20px;
+    background-color: rgb(62, 62, 104);
+    padding: 35px;
+    color: white;
+    text-align: center;
+}
+
+.footer-control h3{
+    margin-top: 20px;
+    color: rgb(87, 87, 136);
+}
+
+.footer-control p{
+    margin-top: 15px;
+}
